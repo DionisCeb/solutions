@@ -1,0 +1,186 @@
+{
+  "getEstimate": "Obtenez une estimation gratuite !",
+  "RequestServices": "Prenez rendez-vous",
+  "WeAreHerebtn": "Nous sommes là pour vous répondre!",
+  "header": {
+    "home": "Accueil",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Nous-joindre"
+  },
+  "footer": {
+    "newsletter_title": "Restez informé grâce à notre infolettre",
+    "newsletter_placeholder": "exemple@courriel.ca",
+    "newsletter_button": "Envoyer",
+    "navigation_title": "Navigation",
+    "navigation_home": "Accueil",
+    "navigation_contact": "Nous-joindre",
+    "navigation_rendez_vous": "Rendez-vous",
+    "navigation_services": "Services",
+    "navigation_blog": "Blog",
+    "contact_title": "Nous Joindre",
+    "contact_head_office": "Siège Social",
+    "contact_address": "892 Rue de la Pommeraie, Saint-Rémi, QC J0L 2L0",
+    "contact_phone": "Téléphone",
+    "contact_email": "Courriel",
+    "contact_phone_number": "1 (438) 833-1000",
+    "contact_email_address": "solutionnetplus@gmail.com",
+    "accreditations_title": "Mode de paiement",
+    "social_icons_linkedin": "LinkedIn",
+    "social_icons_instagram": "Instagram",
+    "social_icons_youtube": "YouTube",
+    "social_icons_facebook": "Facebook",
+    "bottom_rights": "© 2024 Solution Net Plus. Tous droits réservés.",
+    "bottom_credit": "Réalisé par <a href=\"https://wintechnologie.app/\">wintechnologie.app</a>."
+  },
+  "services": {
+    "title": "Services",
+    "description": "Pour chaque service (Nettoyage de Conduit de Ventilation, Nettoyage d'Air Climatisé Mural, Nettoyage de Conduit de Sécheuse, Nettoyage d'Échangeur d'Air, Nettoyage de Système Central) :",
+    "appointment": "Rendez-vous",
+    "ventilation": {
+      "title": "Nettoyage de Conduit de Ventilation",
+      "description": "Les conduits de ventilation accumulent de la poussière, des allergènes et des particules nocives avec le temps. Un nettoyage professionnel de vos conduits améliore la qualité de l'air intérieur, réduit les allergies et assure une meilleure efficacité de votre système de ventilation. Avec notre expertise, vous profitez d'un air plus pur et d'un système qui fonctionne à son plein potentiel."
+    },
+    "conditioner": {
+      "title": "Nettoyage d'Air Climatisé Mural",
+      "description": "Votre climatiseur mural accumule de la poussière, des allergènes et de la moisissure au fil du temps, ce qui affecte la qualité de l'air dans votre maison. Grâce à notre service de nettoyage spécialisé, nous éliminons les particules indésirables, améliorons l'efficacité de votre appareil et prolongeons sa durée de vie. Respirez un air pur et sain tout en réduisant votre consommation d'énergie!"
+    },
+    "dryer": {
+      "title": "Nettoyage de Conduit de Sécheuse",
+      "description": "Un conduit de sécheuse obstrué peut réduire l'efficacité de votre appareil et augmenter le risque d'incendie. Notre service de nettoyage professionnel élimine la charpie et les résidus qui s'accumulent dans le conduit, assurant ainsi un séchage plus rapide et plus sûr. Protégez votre maison et améliorez les performances de votre sécheuse grâce à un nettoyage régulier."
+    },
+    "air_exchanger": {
+      "title": "Nettoyage d'Échangeur d'Air",
+      "description": "Un échangeur d'air mal entretenu peut accumuler des débris et des contaminants, nuisant ainsi à la qualité de l'air que vous respirez. Notre service de nettoyage assure un flux d'air optimal et élimine les impuretés présentes dans votre système. Avec un entretien régulier, vous assurez une meilleure qualité d'air intérieur et un système plus performant."
+    },
+    "central_system": {
+      "title": "Nettoyage de Système Centrale",
+      "description": "La fournaise et le système central jouent un rôle essentiel dans la diffusion de l'air dans votre maison. Au fil du temps, les conduits et la fournaise peuvent se remplir de poussière, de saleté et d'autres polluants. Notre service de nettoyage garantit un fonctionnement optimal de votre système, améliore l'efficacité énergétique et assure que l'air qui circule dans votre maison soit propre et sain."
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Envie de savoir plus sur l'entretien de vos équipements? Besoin de conseils gratuits de nos experts? Restez informé avec notre blog, où nous partageons des astuces et des informations précieuses pour maintenir un air pur chez vous. Consultez nos articles régulièrement pour ne rien manquer!",
+    "consult_articles": "Consultez nos articles!"
+  },
+  "contact_page": {
+    "title": "Page de Contact",
+    "header": "Nous-joindre",
+    "phone": "Téléphone",
+    "head_office": "Siège Social",
+    "address": {
+      "line1": "892 Rue de la Pommeraie,",
+      "line2": "Saint-Rémi, QC J0L 2L0"
+    },
+    "email": "Courriel",
+    "form": {
+      "name": "Nom Complet",
+      "comment": "Commentaire",
+      "submit": "Envoyer",
+      "placeholder": "Bonjour, j'ai un problème avec..."
+    },
+    "thankYou": "Merci pour votre message"
+  },
+  "appointment": {
+    "title": "Formulaire de Rendez-vous",
+    "nav_title": "Rendez-vous",
+    "description_bar": "Nous sommes ici pour répondre à toutes vos questions et besoins en matière de nettoyage de conduits de ventilation, climatisation murale, sécheuse et échangeur d'air. Remplissez le formulaire en plusieurs étapes ci-dessous et nous vous répondrons dans les plus brefs délais.",
+    "step1_title": "Informations Personnelles",
+    "full_name_label": "Nom Complet",
+    "placeholder_name": "Entrez votre nom",
+    "email_label": "Courriel",
+    "placeholder_email": "Entrez votre courriel",
+    "phone_label": "Téléphone",
+    "placeholder_phone": "Entrez votre numéro de téléphone",
+    "next_button": "Suivant",
+    "prev_button": "Précédent",
+    "step2_title": "Adresse du Service",
+    "address_label": "Adresse",
+    "placeholder_address": "Entrez votre adresse",
+    "city_label": "Ville",
+    "placeholder_city": "Entrez votre ville",
+    "postal_code_label": "Code Postal",
+    "placeholder_postal_code": "Entrez votre code postal",
+    "step3_title": "Choisissez vos services",
+    "service1": "Nettoyage de Conduit de Ventilation",
+    "service2": "Nettoyage d'Air Climatisé Mural",
+    "service3": "Nettoyage de Conduit de Sécheuse",
+    "service4": "Nettoyage d'Échangeur d'Air",
+    "problem_description": "Détails du Service",
+    "placeholder_problem_description": "Voici mon problème...",
+    "step4_title": "Description du Problème",
+    "step5_title": "Prenez rendez-vous",
+    "sun": "Dim",
+    "mon": "Lun",
+    "tue": "Mar",
+    "wed": "Mer",
+    "thu": "Jeu",
+    "fri": "Ven",
+    "sat": "Sam",
+    "step6_title": "Autres Commentaires",
+    "comments": "Commentaires",
+    "placeholder_comments": "Entrez tout commentaire supplémentaire ici...",
+    "submit_button": "Soumettre",
+    "thank_you": "Merci!",
+    "thank_you_message": "Merci d'avoir rempli notre formulaire. Nous vous contacterons dans les plus brefs délais pour répondre à votre demande.",
+    "return_home": "Retour à l'accueil"
+  },
+  "homePage": {
+    "hero_image_alt": "logo Solution Net Plus",
+    "welcome_title": "Bienvenue chez Solution Net Plus",
+    "welcome_paragraph": "Depuis plusieurs années, Solution Net Plus s'impose comme le leader incontournable du nettoyage de conduits de ventilation, climatisations murales, sécheuses et échangeurs d'air au Québec. Fondée sur des valeurs de qualité, d'efficacité et de satisfaction client, notre entreprise a su bâtir une réputation d'excellence grâce à notre expertise et notre dévouement.",
+    "team_title": "Notre Équipe",
+    "first_paragraph_equipe": "Dirigée par notre président, <strong>David Danjou</strong>, Solution Net Plus bénéficie d'une équipe de professionnels qualifiés et passionnés. Sous la direction de M. Danjou, notre équipe s'engage à fournir des services de nettoyage de haute qualité qui garantissent un environnement sain et sûr pour vous et vos proches. Chaque membre de notre équipe est formé aux techniques les plus avancées et utilise des équipements à la pointe de la technologie pour assurer des résultats impeccables à chaque intervention.",
+    "second_paragraph_equipe": "Découvrez nos services phares ci-dessous et rejoignez nos nombreux clients satisfaits à travers les régions que nous desservons",
+    "team_image_alt": "photo de l'équipe",
+    "why_choose_us_title": "Pourquoi Nous Choisir?",
+    "why_choose_us_paragraph": "Nous nous engageons à fournir des services de qualité supérieure basés sur 5 valeurs fondamentales :",
+    "carousel": {
+      "innovation": {
+        "imageAlt": "Innovation",
+        "title": "Innovation",
+        "text": "Nous adoptons continuellement les dernières innovations technologiques pour améliorer nos services."
+      },
+      "fiabilite": {
+        "imageAlt": "Fiabilité",
+        "title": "Fiabilité",
+        "text": "Vous pouvez compter sur nous pour respecter les délais et fournir des résultats constants et de haute qualité."
+      },
+      "transparence": {
+        "imageAlt": "Transparence",
+        "title": "Transparence",
+        "text": "Nous communiquons clairement avec nos clients à chaque étape du processus."
+      },
+      "professionnalisme": {
+        "imageAlt": "Professionnalisme",
+        "title": "Professionnalisme",
+        "text": "Notre équipe est formée et certifiée pour utiliser les meilleures pratiques et technologies du secteur."
+      },
+      "satisfactionClient": {
+        "imageAlt": "Satisfaction Client",
+        "title": "Satisfaction Client",
+        "text": "Votre satisfaction est notre priorité, et nous faisons tout notre possible pour dépasser vos attentes."
+      }
+    },
+    "carouselButtons": {
+      "prevAlt": "Previous",
+      "nextAlt": "Next"
+    },
+    "estimationButton": "Obtenez une estimation gratuite !",
+    "stepsTitle": "Nos Services en Trois Étapes Simples",
+    "steps": {
+      "1": {
+        "title": "Prise de Contact",
+        "description": "Appelez-nous ou envoyez-nous un courriel pour discuter de vos besoins et obtenir une estimation gratuite."
+      },
+      "2": {
+        "title": "Planification",
+        "description": "Nous planifions une visite à votre convenance pour effectuer le nettoyage nécessaire."
+      },
+      "3": {
+        "title": "Intervention",
+        "description": "Nos techniciens qualifiés se rendent sur place avec tout l'équipement nécessaire pour nettoyer vos systèmes."
+      }
+    }
+  }
+}

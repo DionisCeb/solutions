@@ -1,0 +1,120 @@
+@use '../components/mixins';
+
+//style desktop
+.content {
+  .banner{
+    img{
+        max-height: 66vh;
+        width: 100%;
+        object-fit: cover;
+    }
+  }
+  .services{
+    h1{
+        color: var(--color-noir-snp);
+        text-align: center;
+        padding-top: 8vh;
+        padding-bottom: calc(var(--spacing-base) * 2);
+    }
+    .services-descrip{
+        @include mixins.flex-row();
+        justify-content: center;
+        width: 100vw;
+        background-color: var(--color-gris-snp);
+        margin-bottom: 10vh;
+        text-align: center;
+        p{
+            color: var(--color-blanc-snp);
+            padding: calc(var(--spacing-base) * 2) 0;
+            max-width: 60%;
+        }
+    }
+    .service-card{
+        @include mixins.flex-column();
+        justify-content: center;
+        margin: 0 10vw ;
+
+        h2{
+            margin: var(--spacing-base);
+            margin-left: 0;
+        }
+        .service-contenu{
+            @include mixins.flex-row();
+            border-bottom: 5px solid var(--color-principal-snp);
+            p{
+                padding:var(--spacing-base);
+
+            }
+            .titre-mobile{
+                display: none;
+              }
+        }
+        .action-btn{
+            @include mixins.flex-row();
+            justify-content: end; 
+            margin-bottom: var(--spacing-base);
+            .contact-link{
+                border: 5px solid var(--color-principal-snp);
+                border-top: none;
+                border-radius: 0 0 5px 5px;
+                padding: 0.5rem ;
+                min-width: 20vw;
+            }
+        }
+    }
+}
+  }
+
+/* Mídia Query Mobile */
+@media (max-width: 860px) {
+    .content {
+      .services {
+        margin: 0;
+        h1 {
+          padding-top: 5vh;
+        }
+        .services-descrip {
+            margin-bottom: 10vh;
+          p {
+            max-width: 80%;
+          }
+        }
+        .service-card {
+        margin:  10vw 0 ;
+          padding: 0;
+          justify-content: center;
+          h2 {
+            display: none;
+          }
+  
+          .service-contenu {
+            @include mixins.flex-column();
+            justify-content: center;
+            align-items: center; 
+            p {
+                padding: 0;
+                padding-bottom: calc(var(--spacing-base)*2);
+                max-width: 80%;
+            }
+            .titre-mobile {
+              text-align: center;
+              display: block;
+              max-width: 80vw;
+            }
+            img {
+              background-color: var(--color-principal-snp);
+              height: 20vh;
+              width: 100%;
+            }
+          }
+          .action-btn {
+            justify-content: center;
+            .contact-link {
+              min-width: 80vw;
+            }
+          }
+        }
+      }
+    }
+  }
+  

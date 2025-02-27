@@ -1,0 +1,144 @@
+@use '../components/mixins';
+//style desktop
+.content {
+  .contact-page {
+    @include mixins.flex-column();
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-base);
+    background-color: var(--color-gris-snp);
+    min-height: 50vh;
+    padding: calc(var(--spacing-base) * 2) 0;
+
+    h1 {
+      text-align: center;
+      padding: var(--spacing-base);
+      color: var(--color-blanc-snp);
+    }
+
+    .cartes {
+      font-weight: bolder;
+      width: 100vw;
+      min-height: 35vh;
+      @include mixins.flex-row(var(--spacing-base));
+      justify-content: center;
+
+      .carte {
+        text-align: center;
+        padding: calc(var(--spacing-base) * 2) var(--spacing-base);
+        background-color: var(--color-blanc-snp);
+        width: 18%;
+        box-sizing: border-box;
+
+        a {
+          color: var(--color-noir-snp);
+        }
+
+        p {
+          padding: var(--spacing-base) 0;
+        }
+
+        &:hover {
+          gap: 8px;
+          padding: calc(var(--spacing-base) * 3) var(--spacing-base);
+          box-shadow: inset 0 0 0 6px var(--color-blanc-fonce-snp); // Effet de contour lors du survol
+          background-color: var(--color-principal-snp);
+
+          .icone,
+          p,
+          a {
+            filter: brightness(0) invert(1);
+          }
+        }
+      }
+    }
+
+    .btn {
+      @include mixins.button-style();
+      &{
+        padding: var(--spacing-base) calc(var(--spacing-base) * 2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: var(--spacing-base);
+      }
+    }
+  }
+
+  .formulaire {
+    padding: calc(var(--spacing-base) * 2) var(--spacing-base);
+    @include mixins.flex-column();
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+
+    form {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+        margin-bottom: var(--spacing-base);
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      textarea {
+        width: 100%;
+        padding: var(--spacing-base);
+        margin-bottom: var(--spacing-base);
+        border: 1px solid var(--color-noir-snp);
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+
+        &:hover {
+          border: 1px solid var(--color-principal-snp);
+        }
+
+        &:focus {
+          border: 1px solid var(--color-principal-snp);
+          outline: none;
+        }
+      }
+
+      textarea {
+        min-height: 100px;
+      }
+
+      button {
+        @include mixins.button-style();
+        & {
+          align-self: center;
+          margin-top: var(--spacing-base);
+        }
+      }
+    }
+  }
+
+  /* Mídia Query Mobile */
+  @media (max-width: 860px) {
+    .contact-page {
+      .cartes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+
+        .carte {
+          width: 70%;
+        }
+      }
+    }
+    .formulaire {
+      form {
+        padding-top: 5vh;
+        width: 90%;
+      }
+    }
+  }
+}

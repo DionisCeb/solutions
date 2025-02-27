@@ -1,0 +1,19 @@
+{
+  "name": "SolutionNetPlus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass sass:css",
+    "watch:sass": "nodemon --watch sass --ext scss --exec \"npm run sass\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.4",
+    "sass": "^1.77.1",
+    "swiper": "^11.1.9"
+  }
+}

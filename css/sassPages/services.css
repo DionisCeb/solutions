@@ -1,0 +1,112 @@
+@charset "UTF-8";
+.content .banner img {
+  min-height: 86vh;
+  width: 100%;
+  object-fit: cover;
+}
+.content .services h1 {
+  color: var(--color-noir-snp);
+  text-align: center;
+  padding-top: 10vh;
+  padding-bottom: calc(var(--spacing-base) * 2);
+}
+.content .services .services-descrip {
+  display: flex;
+  gap: var(--spacing-base);
+  justify-content: center;
+  width: 100vw;
+  background-color: var(--color-gris-snp);
+  margin-bottom: 10vh;
+}
+.content .services .services-descrip p {
+  color: var(--color-blanc-snp);
+  padding: calc(var(--spacing-base) * 2) 0;
+  max-width: 60%;
+}
+.content .services .service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10vw;
+}
+.content .services .service-card h2 {
+  margin: var(--spacing-base);
+  margin-left: 0;
+}
+.content .services .service-card .service-contenu {
+  display: flex;
+  gap: var(--spacing-base);
+  border-bottom: 5px solid var(--color-principal-snp);
+}
+.content .services .service-card .service-contenu p {
+  padding: var(--spacing-base);
+}
+.content .services .service-card .service-contenu .titre-mobile {
+  display: none;
+}
+.content .services .service-card .action-btn {
+  display: flex;
+  gap: var(--spacing-base);
+  justify-content: end;
+  margin-bottom: var(--spacing-base);
+}
+.content .services .service-card .action-btn .contact-link {
+  border: 5px solid var(--color-principal-snp);
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  padding: 0.5rem;
+  min-width: 20vw;
+}
+
+/* Mídia Query Mobile */
+@media (max-width: 860px) {
+  .content .services {
+    margin: 0;
+  }
+  .content .services h1 {
+    padding-top: 5vh;
+  }
+  .content .services .services-descrip {
+    margin-bottom: 10vh;
+  }
+  .content .services .services-descrip p {
+    max-width: 80%;
+  }
+  .content .services .service-card {
+    margin: 10vw 0;
+    padding: 0;
+    justify-content: center;
+  }
+  .content .services .service-card h2 {
+    display: none;
+  }
+  .content .services .service-card .service-contenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content .services .service-card .service-contenu p {
+    padding: 0;
+    padding-bottom: calc(var(--spacing-base) * 2);
+    max-width: 80%;
+  }
+  .content .services .service-card .service-contenu .titre-mobile {
+    text-align: center;
+    display: block;
+    max-width: 80vw;
+  }
+  .content .services .service-card .service-contenu img {
+    background-color: var(--color-principal-snp);
+    height: 20vh;
+    width: 100%;
+  }
+  .content .services .service-card .action-btn {
+    justify-content: center;
+  }
+  .content .services .service-card .action-btn .contact-link {
+    min-width: 80vw;
+  }
+}
+
+/*# sourceMappingURL=services.css.map */

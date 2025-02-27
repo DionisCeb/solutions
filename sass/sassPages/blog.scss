@@ -1,0 +1,66 @@
+@use '../components/mixins';
+// Style pour Desktop
+.blog {
+  padding-bottom: var(--spacing-base);
+  .hero {
+    display: flex;
+    width: 100vw;
+    min-height: 85vh;
+    .hero-banner {
+      flex: 6;
+      max-width: 100%;
+      background-color: var(--color-principal-snp);
+      img {
+        width: 100%; 
+        height: 100%;
+        object-fit: cover; // Maintient les proportions de l'image 
+      }
+    }
+  }
+  .content-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 4;
+    background-color: var(--color-gris-snp);
+    padding: calc(var(--spacing-base) * 5) 0;
+    h1 {
+      color: var(--color-blanc-snp);
+      text-align: center;
+    }
+    p {
+      color: var(--color-blanc-snp);
+      max-width: 80%;
+      font-size: calc(var(--font-size-default-snp));
+    }
+    .btn {
+      @include mixins.button-style();
+    }
+
+  }
+}
+
+/* Mídia Query Mobile  */
+@media (max-width: 860px) {
+    .blog {
+        padding-bottom: 0;
+        .hero {
+            flex-direction: column;
+            .hero-banner {
+                flex: none; 
+                width: 100%;
+                height: 86vh;
+            }
+        }
+        .content-blog {
+            flex: none; // Permet le banner de prendre la largeur complète
+            width: 100%;
+            padding: calc(var(--spacing-base) * 2) 0; 
+            p {
+                font-size: calc(var(--font-size-default-snp) * 0.9); 
+                padding: calc(var(--spacing-base) *2) 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,185 @@
+{
+    "getEstimate": "Get a Free Estimate!",
+    "RequestServices": "Request our services",
+    "WeAreHerebtn": "We are here to assist you!",
+    "header": {
+        "home": "Home",
+        "services": "Services",
+        "blog": "Blog",
+        "contact": "Contact"
+    },
+    "footer": {
+        "newsletter_title": "Stay informed with our newsletter",
+        "newsletter_placeholder": "example@email.com",
+        "newsletter_button": "Send",
+        "navigation_title": "Navigation",
+        "navigation_home": "Home",
+        "navigation_contact": "Contact Us",
+        "navigation_rendez_vous": "Request Service",
+        "navigation_services": "Services",
+        "navigation_blog": "Blog",
+        "contact_title": "Contact Us",
+        "contact_head_office": "Head Office",
+        "contact_address": "892 Rue de la Pommeraie, Saint-Rémi, QC J0L 2L0",
+        "contact_phone": "Phone",
+        "contact_email": "Email",
+        "contact_phone_number": "1 (438) 833-1000",
+        "contact_email_address": "solutionnetplus@gmail.com",
+        "accreditations_title": "Payment method",
+        "social_icons_linkedin": "LinkedIn",
+        "social_icons_instagram": "Instagram",
+        "social_icons_youtube": "YouTube",
+        "social_icons_facebook": "Facebook",
+        "bottom_rights": "© 2024 Solution Net Plus. All rights reserved.",
+        "bottom_credit": "by <a href=\"https://wintechnologie.app/\">Wintechnologie.app</a>."
+    },
+    "services": {
+        "title": "Services",
+        "description": "For each service (Ventilation Duct Cleaning, Wall-Mounted Air Conditioner Cleaning, Dryer Vent Cleaning, Air Exchanger Cleaning, Central System Cleaning):",
+        "appointment": "Request Service",
+        "ventilation": {
+            "title": "Ventilation Duct Cleaning",
+            "description": "Ventilation ducts accumulate dust, allergens, and harmful particles over time. Professional cleaning of your ducts improves indoor air quality, reduces allergies, and ensures better efficiency of your ventilation system. With our expertise, you can enjoy cleaner air and a system that operates at its full potential."
+        },
+        "conditioner": {
+            "title": "Wall-Mounted Air Conditioner Cleaning",
+            "description": "Your wall-mounted air conditioner accumulates dust, allergens, and mold over time, which affects the air quality in your home. With our specialized cleaning service, we remove unwanted particles, improve the efficiency of your unit, and extend its lifespan. Breathe clean and healthy air while reducing your energy consumption!"
+        },
+        "dryer": {
+            "title": "Dryer Vent Cleaning",
+            "description": "A clogged dryer vent can reduce your appliance's efficiency and increase the risk of fire. Our professional cleaning service removes lint and residues that accumulate in the vent, ensuring faster and safer drying. Protect your home and improve your dryer's performance with regular cleaning."
+        },
+        "air_exchanger": {
+            "title": "Air Exchanger Cleaning",
+            "description": "A poorly maintained air exchanger can accumulate debris and contaminants, negatively impacting the air quality you breathe. Our cleaning service ensures optimal airflow and removes impurities from your system. With regular maintenance, you ensure better indoor air quality and a more efficient system."
+        },
+        "central_system": {
+            "title": "Central System Cleaning",
+            "description": "The furnace and central system play a crucial role in circulating air throughout your home. Over time, the ducts and furnace can become filled with dust, dirt, and other pollutants. Our cleaning service ensures the optimal functioning of your system, improves energy efficiency, and ensures that the air circulating in your home is clean and healthy."
+        }
+    },
+    "blog": {
+        "title": "Blog",
+        "description": "Want to learn more about maintaining your equipment? Need free advice from our experts? Stay informed with our blog, where we share tips and valuable information on keeping the air in your home clean. Check our articles regularly to stay updated!",
+        "consult_articles": "Check Out Our Articles!"
+    },
+    "contact_page": {
+        "title": "Contact Page",
+        "header": "Contact",
+        "phone": "Phone",
+        "head_office": "Head Office",
+        "address": {
+            "line1": "892 Pommeraie Street,",
+            "line2": "Saint-Rémi, QC J0L 2L0"
+        },
+        "email": "Email",
+        "form": {
+            "name": "Full Name",
+            "comment": "Comment",
+            "submit": "Send",
+            "placeholder": "Hello I need your help with..."
+        },
+        "thankYou": "Thank you for your message"
+    },
+    "appointment": {
+        "title": "Request Service",
+        "nav_title": "Request Service",
+        "description_bar": "We are here to address all your questions and needs regarding ventilation duct cleaning, wall-mounted air conditioner cleaning, dryer vent cleaning, and air exchanger cleaning. Please fill out the multi-step form below, and we will get back to you as soon as possible.",
+        "step1_title": "Personal Information",
+        "full_name_label": "Full Name",
+        "placeholder_name": "Enter your name",
+        "email_label": "Email",
+        "placeholder_email": "Enter your email",
+        "phone_label": "Phone",
+        "placeholder_phone": "Enter your phone number",
+        "next_button": "Next",
+        "prev_button": "Back",
+        "step2_title": "Service Address",
+        "address_label": "Address",
+        "placeholder_address": "Enter your address",
+        "city_label": "City",
+        "placeholder_city": "Enter your city",
+        "postal_code_label": "Postal Code",
+        "placeholder_postal_code": "Enter your postal code",
+        "step3_title": "Select Services",
+        "service1": "Ventilation Duct Cleaning",
+        "service2": "Wall-Mounted Air Conditioner Cleaning",
+        "service3": "Dryer Vent Cleaning",
+        "service4": "Air Exchanger Cleaning",
+        "problem_description": "Problem Description",
+        "placeholder_problem_description": "Here is my problem...",
+        "step4_title": "Service Details",
+        "step5_title": "Schedule an Appointment",
+        "sun": "Sun",
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri",
+        "sat": "Sat",
+        "step6_title": "Other Comments",
+        "comments": "Comments",
+        "placeholder_comments": "Enter any additional comments here...",
+        "submit_button": "Submit",
+        "thank_you": "Thank You!",
+        "thank_you_message": "Thank you for filling out our form. We will contact you shortly to address your request.",
+        "return_home": "Home"
+    },
+    "homePage": {
+        "hero_image_alt": "logo Solution Net Plus",
+        "welcome_title": "Welcome to Solution Net Plus",
+        "welcome_paragraph": "For several years, Solution Net Plus has established itself as the leading provider of cleaning services for ventilation ducts, wall-mounted air conditioners, dryers, and air exchangers in Quebec. Founded on values of quality, efficiency, and customer satisfaction, our company has built a reputation for excellence through our expertise and dedication.",
+        "team_title": "Our Team",
+        "first_paragraph_equipe": "Led by our president, <strong>David Danjou</strong>, Solution Net Plus benefits from a team of qualified and passionate professionals. Under Mr. Danjou's leadership, our team is committed to providing high-quality cleaning services that ensure a healthy and safe environment for you and your loved ones. Each member of our team is trained in the most advanced techniques and uses state-of-the-art equipment to ensure impeccable results with every intervention.",
+        "second_paragraph_equipe": "Discover our flagship services below and join our many satisfied customers across the regions we serve.",
+        "team_image_alt": "Team photo",
+        "why_choose_us_title": "Why Choose Us?",
+        "why_choose_us_paragraph": "We are committed to delivering superior services based on 5 core values:",
+        "carousel": {
+            "innovation": {
+                "imageAlt": "Innovation",
+                "title": "Innovation",
+                "text": "We continuously adopt the latest technological innovations to enhance our services."
+            },
+            "fiabilite": {
+                "imageAlt": "Reliability",
+                "title": "Reliability",
+                "text": "You can count on us to meet deadlines and deliver consistent, high-quality results."
+            },
+            "transparence": {
+                "imageAlt": "Transparency",
+                "title": "Transparency",
+                "text": "We maintain clear communication with our clients at every step of the process."
+            },
+            "professionnalisme": {
+                "imageAlt": "Professionnalism",
+                "title": "Professionnalism",
+                "text": "Our team is trained and certified to use the best practices and technologies in the industry."
+            },
+            "satisfactionClient": {
+                "imageAlt": "Client Satisfaction",
+                "title": "Client Satisfaction",
+                "text": "Your satisfaction is our priority, and we go above and beyond to exceed your expectations."
+            }
+        },
+        "carouselButtons": {
+            "prevAlt": "Previous",
+            "nextAlt": "Next"
+        },
+        "stepsTitle": "Nos Services en Trois Étapes Simples",
+        "steps": {
+            "1": {
+                "title": "Get in Touch",
+                "description": "Call us or send an email to discuss your needs and get a free estimate."
+            },
+            "2": {
+                "title": "Scheduling",
+                "description": "We schedule a visit at your convenience to perform the necessary cleaning."
+            },
+            "3": {
+                "title": "Service Delivery",
+                "description": "Our qualified technicians arrive on-site with all the necessary equipment to ensure professional and efficient cleaning."
+            }
+        }
+    }
+}
