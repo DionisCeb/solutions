@@ -3,8 +3,20 @@
 .content {
   .banner {
     position: relative; 
-    height: calc(100vh - 100px);
+    height: 80dvh;
     width: 100%;
+
+    .background-image {
+      position: absolute;
+      height: 100%;
+      display: flex;
+
+      img {
+        object-fit: cover;
+        filter: grayscale(100%) brightness(0.19);
+    }
+    }
+    /* background-image: url(/assets/img/home/bg-vedette-accueil.webp); */
   // Utilisation du fichier mixins.scss pour ne pas répéter le même style/ plusieurs lignes
     @include mixins.flex-row-center();
     &::before {
@@ -14,7 +26,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      @include mixins.background-image("/assets/img/home/bg-vedette-accueil.webp");
+      /* @include mixins.background-image("/assets/img/home/bg-vedette-accueil.webp"); */
       filter: grayscale(100%) brightness(0.19);
       z-index: -1;
     }
@@ -29,6 +41,12 @@
       z-index: -1; 
     }
     .hero-img-logo {
+      .hero-phone_logo a {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
       @include mixins.flex-column();
       justify-content: center;
       align-items: center;
@@ -354,4 +372,11 @@
         max-width: 85vw;
     }
     }
+}
+
+
+@media (max-width: 460px) {
+  .content .banner .hero-img-logo img {
+    transform: scale(1.2);
+  }
 }
